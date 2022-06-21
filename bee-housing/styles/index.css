@@ -170,13 +170,15 @@ footer .complaint button:hover {
 }
 .hero img {
   width: 100%;
+  height: auto;
   margin-bottom: -10px;
 }
 .hero div {
   position: absolute;
-  top: 20%;
-  left: 10px;
-  color: #fff;
+  top: 15%;
+  right: 3%;
+  color: #000000;
+  font-size: 3rem;
 }
 
 .options {
