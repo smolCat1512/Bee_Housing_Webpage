@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4c524a337d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Bee Housing - Home</title>
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <p>Welcome to Bee Housing</p>
+        <div>
+          <p>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            Call or Text Us: +44 7401 259740
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <article>
+      <img src="images/logo.png" alt="Bee Housing logo" />
+      <button class="login"><i class="fa-solid fa-lock-open"></i> Login</button>
+    </article>
+
+    <main>
+      <section class="hero">
+        <img
+          src="./images/house.jpg"
+          alt="house in the dark with lights on hero image"
+        />
+        <div>
+          <p>Welcome to Bee Housing</p>
+        </div>
+      </section>
+
+      <section class="options">
+        <section>
+          <div>
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <p>Pay a Bill</p>
+        </section>
+        <section>
+          <div>
+            <i class="fa-solid fa-house-chimney-window"></i>
+          </div>
+          <p>Post a Home/Tenancy</p>
+        </section>
+        <section>
+          <div>
+            <i class="fa-solid fa-comment"></i>
+          </div>
+          <p>Contact Us</p>
+        </section>
+        <section>
+          <div>
+            <i class="fa-solid fa-newspaper"></i>
+          </div>
+          <p>Latest News</p>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <div class="address">
+          <h2>Registered Address:</h2>
+          <p>Bee Housing</p>
+          <p>Peter House, Spaces, Oxford St, Manchester M1 5AN</p>
+        </div>
+        <div class="socials">
+          <h2>Social</h2>
+          <i class="fa-brands fa-facebook fa-2xl"></i>
+          <i class="fa-brands fa-twitter fa-2xl"></i>
+          <i class="fa-brands fa-instagram fa-2xl"></i>
+          <i class="fa-brands fa-youtube fa-2xl"></i>
+        </div>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+          <p>Home</p>
+          <p>About</p>
+          <p>Contact</p>
+          <p>Login</p>
+          <p>Register</p>
+        </div>
+
+        <div class="complaint">
+          <button id="open">Log a complaint</button>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <img src="./images/logo_ciptex.png" />
+      </div>
+    </footer>
+
+    <div class="modal-container" id="modal_container">
+      <div class="modal">
+        <h1>Complaint Form</h1>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <label for="complaint">Complaint</label>
+          <textarea id="complaint"></textarea>
+          <button id="close" >Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+  <script src="./modal.js"></script>
+</html>
